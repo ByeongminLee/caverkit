@@ -1,0 +1,10 @@
+src/
+test/
+misc/
+coverage/
+.env
+.idea/
+tsconfig.json
+jest.config.js
+*.test.ts
+*.test.js
