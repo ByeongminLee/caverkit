@@ -2,7 +2,7 @@ import CaverKit from '../src';
 
 /** Test Initial */
 const abiName = 'testABI';
-const ABI = require(`./ABI/${abiName}.json`);
+const ABI = require(`@/__tests__/ABI/${abiName}.json`);
 const ContractAddress = '0xB5c4650400EFe1f6a32bcA92a01E825503754697';
 const chainID = '1001';
 const address = '0x3A3608Db6A84F65d356fd4b3bBd5BC3d463ce240';

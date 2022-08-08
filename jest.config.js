@@ -10,4 +10,7 @@ module.exports = {
     '.misc.ts',
     '.mock.ts',
   ],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/$1',
+  },
 };
