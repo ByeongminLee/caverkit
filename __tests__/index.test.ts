@@ -21,7 +21,7 @@ describe('Caver', () => {
     const callResult1 = await cav.callContract(callMethod1);
     expect(typeof callResult1).toBe('string');
     expect(parseInt(callResult1)).toBeGreaterThan(1000000000000000);
-  });
+  }, 100000);
 
   test('call Contract2 : with param', async () => {
     const callMethod2 = 'balanceOf';
@@ -29,7 +29,7 @@ describe('Caver', () => {
     const callResult2 = await cav.callContract(callMethod2, params);
     expect(typeof callResult2).toBe('string');
     expect(parseInt(callResult2)).toBeGreaterThan(1000000000000000);
-  });
+  }, 100000);
 
   test('send Contract1', async () => {
     const sendMethod = 'mint';
@@ -38,7 +38,7 @@ describe('Caver', () => {
     const params = [address, toPebAmount];
     const sendResult = await cav.sendContract(sendMethod, params);
     expect(sendResult.status).toBe(true);
-  });
+  }, 100000);
 });
 
 describe('utils', () => {
@@ -65,5 +65,5 @@ describe('utils', () => {
   test('getTransactionReceipt', async () => {
     const receipt = await cav.utils.getTransactionReceipt(Tx);
     expect(receipt.status).toBe(true);
-  });
+  }, 100000);
 });
