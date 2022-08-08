@@ -2,11 +2,11 @@
   "name": "caverkit",
   "version": "0.1.0",
   "description": "Simple to use klaytn network Caver.js SDK",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest --forceExit",
-    "prepare": "husky install"
+    "prepare": "npm run build && husky install"
   },
   "repository": {
     "type": "git",
