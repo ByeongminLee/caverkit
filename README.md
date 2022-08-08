@@ -8,7 +8,7 @@
 ## 🛠️ Install
 
 ```sh
-npm install web3
+npm install caverkit
 ```
 
 <br />
