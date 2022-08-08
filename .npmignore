@@ -8,3 +8,6 @@ tsconfig.json
 jest.config.js
 *.test.ts
 *.test.js
+commitlint.config.js
+.prettierrc
+__tests__/
