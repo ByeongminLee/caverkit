@@ -1,6 +1,6 @@
 {
   "name": "caverkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple to use klaytn network Caver.js SDK",
   "main": "dist/src/index.js",
   "scripts": {
