@@ -10,6 +10,7 @@ module.exports = {
     '.misc.ts',
     '.mock.ts',
   ],
+  modulePathIgnorePatterns: ['<rootDir>/dist/'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
   },
