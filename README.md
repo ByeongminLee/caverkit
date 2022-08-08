@@ -1,7 +1,7 @@
 # CaverKit
 
-[![npm version](https://badge.fury.io/js/caverkit.svg)](https://badge.fury.io/js/caverkit)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+![npm version](https://img.shields.io/npm/v/caverkit.svg)
+![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)
 
 <br />
 
